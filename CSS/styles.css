@@ -46,12 +46,12 @@ img#image {
     width: 100%;
 }
 
-figcaption {
+figcaption#img-caption {
     text-align: center;
     margin: 10px 0px;
 }
 
-section#history {
+section#tribute-info {
     width: 50%;
     margin: 0 20%;
     text-align: left;
@@ -78,8 +78,17 @@ sup {
 }
 
 p#wikilink {
+    margin: 0px 20%;
     font-size: 14px;
     padding-bottom: 20px;
+}
+
+a#tribute-link {
+    color: white;
+}
+
+a#tribute-link:visited {
+    color: white;
 }
 
 @media (max-width: 375px) {
@@ -101,7 +110,7 @@ p#wikilink {
         text-align: center;
     }
 
-    figcaption {
+    figcaption#img-caption {
         font-size: 14px;
     }
 
@@ -110,7 +119,7 @@ p#wikilink {
         width: 100%;
     }
 
-    section#history {
+    section#tribute-info {
         width: 100%;
         margin: 0;
         padding: 10px;
@@ -130,5 +139,10 @@ p#wikilink {
         padding: 10px;
         width: 100%;
         font-size: 14px;      
+    }
+
+    p#wikilink {
+        font-size: 14px;
+        margin-top: 20px;
     }
 }
