@@ -43,7 +43,10 @@ div#img-div {
 img#image {
     border-radius: 20px;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
 }
 
 figcaption#img-caption {
